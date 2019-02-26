@@ -1,0 +1,13 @@
+# I
+Os três sites escolhidos para analisar com o SSL Server foram o Argentena Bank (banco belga), o Banco Nacional Checo (BNC) e o Alpha Bank (banco grego). Tanto o Argentena como o BNC têm classificação A, sendo por isso bastante seguros ao contrário do Alpha Bank que em um rating de F.
+
+# II
+O site menos seguro é claramente o site do Alpha Bank, isto deve-se a este site ser bastante vulnerável ao ataque ROBOT (return of bleichencacher's Oracle threat). Isto acontece porque o servidor apenas suporta trocas de chaves de encriptação RSA e consiste num invasor que pode gravar passivamente o tráfego podendo desencriptá-lo mais tarde.
+Além disso o servidor não conta com forward secrecy, correndo o risco das chaves serem comprometidas. 
+Este servidor está bastante exposto a ataques man-in-the-middle por exemplo.
+
+
+#III - Heartbleed
+
+O heartbleed consiste no atacante enganar o servidor de forma a este libertar um pedaço de memória. Em termos práticos o atacante pode obter informação sensivel como chaves privadas para enpriptação, compremetendo assim a segurança do servidor.
+
