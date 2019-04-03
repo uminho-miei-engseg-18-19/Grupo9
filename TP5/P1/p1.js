@@ -66,7 +66,7 @@ koreCoin.addBlock(new Block (3, "02/01/2018", {amount: 40}));
 
 //blocks added 
 koreCoin.addBlock(new Block (4, "26/03/2019", {amount1: 35000, amount2: 87}))
-koreCoin.addBlock(new Block (4, "26/03/2019", {amount1: 55, amount2: 45, amount3: 26}))
+koreCoin.addBlock(new Block (4, "26/03/2019", [{from:55, to:45, amount: 26},{from:3500, to:87, amount:300}]));
 koreCoin.addBlock(new Block (4, "26/03/2019", {amount1: 0.5, amount2: 400}))
 
 
